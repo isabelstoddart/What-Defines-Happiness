@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+<script src="https://d3js.org/d3.v4.js"></script>
+<title>What Defines Happiness?</title>
+
+<div id="my_dataviz"></div>
+
+<style>
+    div.tooltip {	
+      position: absolute;			
+      text-align: center;			
+      width: 65px;					
+      height: 40px;					
+      padding: 1px;				
+      font: 12px arial;		
+      background: rgb(255,255,255);	
+      border: solid;		
+      border-radius: 10px;			
+      pointer-events: none;			
+     }
+
+    body{
+        background-color: #cfcfcf ;
+        position:relative;
+    }
+
+    p{
+        margin-top:20px;
+        margin-left: 50px;
+    }
+
+    h1{
+        margin-top:20px;
+        margin-left: 50px;
+    }
+
+    button{
+        background-color: white;
+        border-radius: 5px;
+        border: 3px solid black;
+        margin-left: 125px;
+    }
+
+    button:focus{
+        background-color:#FFFF9F;
+        color:black;
+    }
+</style>
+
+<body>
+    <h1>What Defines Happiness?</h1>
+    <p>The World Happiness Report defines happiness using 6 factors: income, freedom, trust in government, healthy life expectancy, social support from family and friends, and generosity. The World Happiness Report ranks happiness throughout the world in the order below.</p>
+    <script src="bar.js"></script>
+    <p>What does happiness in these countries look like when we rate it by different factors related to mental health and personal well-being such as LGBTQ+ Rights, Prison Population Rate, Deaths from Drug Use, Deaths from Alcohol Use, and Suicide Rate? LGBTQ+ Rights is rated on a scale from -195 to 384 taking into account 9 factors of LGBTQ+ travel safety. Prison Population Rate is rated by actual prison population rate in each country. Deaths from Drug Use, Deaths from Alcohol Use, and Suicide Rate are based on death rate per 100,000 people.</p>
+    <script src="interactive.js"></script>
+
+    <button onclick="update('LGBTQRights')">LGBTQ+ Rights</button>
+    <button onclick="update('PrisonPopulationRate')">Prison Population Rate</button>
+    <button onclick="update('DrugUse')">Drug Use</button>
+    <button onclick="update('AlcoholUse')">Alcohol Use</button>
+    <button onclick="update('SuicideRate')">Suicide Rate</button>
+</body>
