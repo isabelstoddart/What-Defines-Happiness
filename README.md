@@ -13,3 +13,15 @@ The World Happiness Report defines happiness using 6 factors: income, freedom, t
 
 ### LGBTQ+ Rights
 ![](images/lgbtq+.png)
+
+### Prison Population Rate
+![](images/prisonpop.png)
+
+### Deaths from Drug Use
+![](images/druguse.png)
+
+### Deaths from Alcohol Use
+![](images/alcoholuse.png)
+
+### Suicide Rate
+![](images/suiciderate.png)
