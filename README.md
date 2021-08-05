@@ -1,4 +1,6 @@
-# What-Defines-Happiness
+# What Defines Happiness?
+
+### [Live Project](https://isabelstoddart.github.io/What-Defines-Happiness/)
 
 The purpose of this project was to consider the context data is collected in. Based on Data Feminism by Catherine D’Ignazio and Lauren Klein, this project looks at The World Happiness Report and the elements used to define happiness. It examines other aspects of happiness and how those elements compare to the happiness scores of our world. 
 
