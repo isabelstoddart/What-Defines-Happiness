@@ -9,3 +9,7 @@ The World Happiness Report defines happiness using 6 factors: income, freedom, t
 ## World Happiness Report scores vs other factors that determine happiness
 
 ### World Happiness Report
+![](images/worldhappinessreport.png)
+
+### LGBTQ+ Rights
+![](images/lgbtq+.png)
